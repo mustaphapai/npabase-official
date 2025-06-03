@@ -1,0 +1,120 @@
+.auth{
+    background: linear-gradient(to bottom, rgb(1, 4, 11), rgb(1, 11, 200));  /* Dark blue background */
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.signup-head{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+    gap: 5px;
+    align-items: center;
+    padding: 8px;
+}
+
+.signup-form input{
+    width: 97%;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    color: white;
+    font-size: 1rem;
+    height: 5.4vh;
+    margin: 3px;
+}
+
+.signup-form input:focus{
+    outline: none;
+    border: 1px dotted rgb(4, 126, 248); /* Bright cyan accent */
+}
+
+.signup-form button{
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(4, 126, 248); /* Bright cyan accent */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+     height: 7vh;
+}
+
+.signup-form hr{
+    width: 100%;
+    height: 0.9px;
+    background-color: #6e03fa; /* Bright blue divider */
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-socials{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+     background-color: rgb(15, 35, 77);
+     padding: 7px;
+    margin-bottom: 20px;
+     width: 85%;
+     display: flex;
+     justify-content: center;
+     border-radius: 18px;
+}
+
+.signup-socials img{
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    margin-right: 20px;
+   
+}
+
+
+
+.signup-footer-item{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1rem;
+    color: #ffffff; 
+    text-align: center;/* Light gray text */
+}
+
+.signup-footer-item a{
+    color: #4e9af1; /* Light blue link color */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.signup-footer-item button{
+    background: none;
+    border: none;
+    color: #00bdf7; /* Light blue button text */
+    cursor: pointer;
+    font-size: 1rem;
+    height: 3vh;
+
+
+}

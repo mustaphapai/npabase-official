@@ -1,0 +1,360 @@
+.button{
+    background-color: #065aae; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 19.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4.4px 2.4px;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+
+
+.button:hover {
+    background-color: #065aae; /* Darker green */
+}
+
+.logo{
+    font-family: poppins, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #065aae;
+    font-style: bold;
+    margin-left:6px ;
+
+}
+
+
+.bg{
+  
+    background: linear-gradient(to bottom, rgb(1, 4, 11), rgb(1, 11, 200));  /* Dark blue background */
+    margin: 0;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 8px;
+
+}
+
+
+.bg h1{
+    font-family: poppins, sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #065aae;
+    font-style: bold;
+    margin-left:6px ;
+}
+
+.bg p{
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-style: bold;
+    margin-left:6px ;
+}
+
+.general-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35vh;
+    padding: 18px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 20px;
+    margin-bottom: 17px;
+    transition: transform 0.3s ease;
+    gap: 25px;
+}
+
+
+.general-card button{
+    width: 100%;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.admissions-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.admissions-header h1{
+    font-family: poppins, sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #a5cef8;
+    font-style: bold;
+    margin-left:6px ;
+}
+.view-post{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgb(1, 4, 11),rgb(1, 7, 134));
+    margin-bottom: 17px;
+    transition: transform 0.3s ease;
+    gap: 15px;
+    color: white;
+
+}
+
+.post-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.post-info div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background: rgba(191, 219, 250, 0.2); 
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.post-info div p{
+    font-color: blue;
+}
+
+
+.post-info p{
+    margin-right: 18px;
+}
+
+.view-post p{
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-style: bold;
+    margin-left:6px ;
+    line-height: 25px;
+    letter-spacing: 1.1px;
+}
+.view-post  img{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.reaction-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.reaction{
+    background-color: #065aae7e;
+    padding: 8px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+
+.comment-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 20px;
+    margin-bottom: 17px;
+    transition: transform 0.3s ease;
+    gap: 15px;
+}
+
+.comment-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.comment-input{
+  width: 88%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    color: white;
+    font-size: 0.9rem;
+    height: 12vh;
+    margin: 5px;
+    font-style: italic;
+}
+
+.comment-section{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 18px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+    gap: 15px;
+}
+
+.comment-button{
+    width: 100%;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.study-card-item-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    gap: 12px;
+}
+
+.btn-download{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 8px;
+    height: 42px;
+}
+
+
+.create-post{
+     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 18px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgb(1, 4, 11),rgb(1, 7, 134));
+    margin-bottom: 17px;
+    transition: transform 0.3s ease;
+    gap: 15px;
+    color: white;
+}
+
+
+.create-post h1{
+    font-family: poppins, sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #a5cef8;
+    font-style: bold;
+    margin-left:6px ;
+}
+
+.create-post input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    color: white;
+    font-size: 0.9rem;
+    height: 5.5vh;
+    margin: 9px;
+    font-style: italic;
+}
+
+.create-post textarea{
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    color: white;
+    font-size: 0.9rem;
+    height: 40vh;
+    margin: 9px;
+    font-style: italic;
+}
+
+.create-post button{
+    width: 100%;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-post select{
+    width: 95%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    color: white;
+    font-size: 1rem;
+    height: 7.4vh;
+    margin: 9px;
+    font-style: italic;
+}
+
+.file-upload{
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    padding: 12px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 20px;
+    margin: 8px;
+    transition: transform 0.3s ease;
+    gap: 15px;
+}
