@@ -14,7 +14,7 @@ const HomePage = () => {
         </div>
         <div className='home-nav-links'>
           <a href='#about'>About</a>
-          <button className='button' onClick={() => navigate('/dashboard')}>Login</button>
+          <button className='button' onClick={() => navigate('/login')}>Login</button>
         </div>
       </div>
     );
