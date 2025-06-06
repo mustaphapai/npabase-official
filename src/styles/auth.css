@@ -1,8 +1,12 @@
 .auth{
     background: linear-gradient(to bottom, rgb(1, 4, 11), rgb(1, 11, 200));  /* Dark blue background */
     margin: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    max-width: 100%;
+    max-height:100%;
+    min-height: 100vh;
+    min-width: 100vw;
     color: white;
     padding: 0%;
     box-sizing: border-box;
@@ -12,12 +16,31 @@
    
 }
 
+.auth-success {
+  color: #4CAF50;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
 .signup-head{
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-top: 30px;
     text-align: center;
+}
+
+/* In auth.css */
+.auth-error {
+  color: #D8000C; /* A standard error red color */
+  background-color: #FFD2D2; /* A light red background */
+  border: 1px solid #D8000C;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px; /* Space between the error and the form fields */
+  text-align: center;
+  font-size: 0.9em;
 }
 
 .signup-form{

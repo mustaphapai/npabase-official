@@ -40,7 +40,7 @@ const AdmissionCard = ({title,description}) => {
             <p>Get all the admission info and interview process in one place</p>
         </div>
         <div className='admissions-content'>
-        <AdmissionCard title="Admissions Step 1" description="get all the initial interview process here" />
+        <AdmissionCard title="Introducing Police Academy" description="Abrief Introduction to Polac Wudil, Kano." />
         <AdmissionCard title="Admissions Step 2" description="Exlore Navy admissions details, from eligibility criteria to application procedures and interview guidance." />
         <AdmissionCard title="Admissions Step 3" description="Get comprehensive information on Air Force admissions, including requirements, application steps, and interview preparation." />
         <AdmissionCard title="Admissions Step 4" description="Explore Army admissions details, from eligibility criteria to application procedures and interview guidance." />
